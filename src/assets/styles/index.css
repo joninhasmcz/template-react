@@ -1,0 +1,23 @@
+.employee-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.employee-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.employee-form {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.employee-form label {
+    display: grid;
+    gap: 0.5rem;
+}
